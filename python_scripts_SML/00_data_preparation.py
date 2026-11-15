@@ -17,7 +17,7 @@ from scipy.stats.mstats import winsorize
 import seaborn as sns
 import numpy as np
 # data source route
-df_source = 'Z:/UpWork/UpWork2022/spatialML_march2022/db/'
+df_source = 'Z:/spatialML_march2022/db/'
 # ---------------------------------------------------------------------------
 # Loading survey data:
 df = pd.read_stata(df_source + 'susenas1621pooled.dta')

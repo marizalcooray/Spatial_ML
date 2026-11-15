@@ -21,7 +21,7 @@ pca = PCA(n_components = 'mle', svd_solver = 'full') # <----- Change here number
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 import os
-os.chdir(r'Z:/UpWork/UpWork2022/spatialML_march2022/results/')
+os.chdir(r'Z:/spatialML_march2022/results/')
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression, ElasticNet, LogisticRegression
 from sklearn.neural_network import MLPClassifier, MLPRegressor
@@ -35,7 +35,7 @@ from sklearn.naive_bayes import GaussianNB # Naive Bayes
 from sklearn.ensemble import RandomForestClassifier # Random forest
 
 #%% data source route
-db_source = 'Z:/UpWork/UpWork2022/spatialML_march2022/db/'
+db_source = 'Z:/spatialML_march2022/db/'
 
 #%% Loading data:
 df = pd.read_csv(db_source + 'SML_df_March2022.csv')
